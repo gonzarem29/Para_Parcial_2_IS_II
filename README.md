@@ -22,7 +22,22 @@ La página incluye una calculadora interactiva integrada en la sección de prác
 
 La calculadora se muestra como panel lateral en desktop (≥1024px) y como bottom sheet overlay en mobile con botón FAB flotante. Persiste los valores ingresados en sessionStorage.
 
-Tecnologías: HTML + CSS + JavaScript vanilla. Sin dependencias externas.
+Tecnologías: HTML + CSS + JavaScript vanilla + Three.js (CDN).
+
+## Diseño maximalista (v2.0)
+
+La interfaz se rediseñó siguiendo las tendencias **Maximalismo 2026** y **Democratized Fancy Animations**:
+
+- **4 Actos narrativos**: El Laboratorio (hero), Los Planos (contenido), La Simulación (examen), El Archivo (footer)
+- **Three.js 3D background**: icosaedro wireframe rotatorio + campo de partículas (CDN, lazy load)
+- **Animaciones 3D scroll**: tarjetas con perspectiva `rotateX(12deg)` al hacer scroll
+- **Efecto blueprint**: barrido de luz al hover en tarjetas de contenido
+- **Línea de escaneo**: barra sci-fi en el contenedor de progreso
+- **CRT scan**: superposición de líneas en la calculadora
+- **Boot overlay secuencia CLI**: simulación de arranque del laboratorio al cargar
+- **Divisores SVG animados**: ondas SMIL entre cada acto
+- **Paleta maximalista**: acentos rojo (`--maxi-accent1`), amarillo (`--maxi-accent2`), púrpura (`--maxi-accent3`), teal (`--maxi-accent4`)
+- **prefers-reduced-motion**: todas las animaciones se desactivan respetando accesibilidad
 
 ## Novedades de esta versión
 
