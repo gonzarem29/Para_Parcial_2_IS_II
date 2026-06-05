@@ -9,6 +9,16 @@ Plataforma interactiva de estudio para el **Segundo Parcial de Ingeniería de So
 - **Administración del Riesgo** — Categorías de riesgo, estrategias
 - **Gestión del Cambio y Calidad** — Versionado semántico, proceso de cambio
 - **Simulacro de Parcial** — 9 ejercicios teórico-prácticos con verificación automática
+- **Teoría expandida** — Explicación detallada de cada tema con toggle interactivo
+- **Soluciones integradas** — Ejercicios prácticos con solución expandible y verificación numérica
+
+## Novedades de esta versión
+
+- **Teoría por tema**: cada tópico ahora incluye una explicación teórica completa accesible mediante un toggle (▶)
+- **Verificación de respuestas teóricas**: las preguntas del simulacro se evalúan por palabras clave y devuelven feedback
+- **Verificación numérica**: los ejercicios prácticos (IMS, UCP, PF, Halstead, ERD/Integridad) validan los valores ingresados
+- **Soluciones expandibles**: cada ejercicio incluye una solución detallada con cálculos paso a paso
+- **Confeti al completar**: efecto visual al alcanzar el 100% de temas aprendidos
 
 ## Tecnologías
 
